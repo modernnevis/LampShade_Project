@@ -1,0 +1,95 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "0_Framework/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/0_Framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/0_Framework.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "0_Framework/1.0.0": {
+      "type": "project",
+      "path": "../0_Framework/0_Framework.csproj",
+      "msbuildProject": "../0_Framework/0_Framework.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "0_Framework >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\HP O M E N\\.nuget\\packages\\": {},
+    "D:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\HP O M E N\\Documents\\C#\\Atriya\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domian\\ShopManagement.Domain.csproj",
+      "projectName": "ShopManagement.Domain",
+      "projectPath": "C:\\Users\\HP O M E N\\Documents\\C#\\Atriya\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domian\\ShopManagement.Domain.csproj",
+      "packagesPath": "C:\\Users\\HP O M E N\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP O M E N\\Documents\\C#\\Atriya\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domian\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\HP O M E N\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\HP O M E N\\Documents\\C#\\Atriya\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
+              "projectPath": "C:\\Users\\HP O M E N\\Documents\\C#\\Atriya\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
