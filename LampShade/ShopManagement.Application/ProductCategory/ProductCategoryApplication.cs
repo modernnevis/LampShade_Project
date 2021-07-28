@@ -16,11 +16,16 @@ namespace ShopManagement.Application.ProductCategory
             _productCategoryRepository = productCategoryRepository;
         }
 
+        public List<ProductCategoryViewModel> GetProductCategories()
+        {
+            return _productCategoryRepository.GetProductCategories();
+        }
+
         public OperationResult Create(CreateProductCategory command)
         {
             OperationResult operationResult = new OperationResult();
             if (_productCategoryRepository.Exists(x => x.Name == command.Name))
-               return operationResult.Failed("امکان ثبت رکورد تکراری وحود ندارد، لطفا مجددا تلاش کنید.");
+               return operationResult.Failed(ApplicationMessages.Duplicate);
             var slug = command.Slug.Slugify();
             var productCategory = new Domain.ProductCategoryAgg.ProductCategory(command.Name, command.Description,
                 command.Picture, command.PictureAlt, command.PictureTitle, command.Keywords, command.MetaDescription,
@@ -36,10 +41,10 @@ namespace ShopManagement.Application.ProductCategory
             OperationResult operationResult = new OperationResult();
             var productCategory = _productCategoryRepository.Get(command.Id);
             if(productCategory==null)
-                return operationResult.Failed("yaft nashod.");
+                return operationResult.Failed(ApplicationMessages.NotFound);
             
             if (_productCategoryRepository.Exists(x => x.Name == command.Name && x.Id!=command.Id))
-                return operationResult.Failed("امکان ثبت رکورد تکراری وحود ندارد، لطفا مجددا تلاش کنید.");
+                return operationResult.Failed(ApplicationMessages.Duplicate);
 
             var slug = command.Slug.Slugify();
             productCategory.Edit(command.Name, command.Description,

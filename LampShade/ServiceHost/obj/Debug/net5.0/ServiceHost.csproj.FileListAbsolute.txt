@@ -91,3 +91,13 @@ C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\Service
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductCategories\Create.cshtml.g.cs
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductCategories\Edit.cshtml.g.cs
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Products\Create.cshtml.g.cs
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Products\Edit.cshtml.g.cs
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Products\Index.cshtml.g.cs
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductPictures\Create.cshtml.g.cs
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductPictures\Edit.cshtml.g.cs
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductPictures\Index.cshtml.g.cs
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shared\_Menu.cshtml.g.cs
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Slides\Create.cshtml.g.cs
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Slides\Edit.cshtml.g.cs
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Slides\Index.cshtml.g.cs
