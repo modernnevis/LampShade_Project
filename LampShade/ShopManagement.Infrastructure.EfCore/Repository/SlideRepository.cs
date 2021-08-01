@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Text;
+using _0_Framework.Application;
 using _0_Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.Slide;
@@ -31,7 +32,8 @@ namespace ShopManagement.Infrastructure.EfCore.Repository
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
                 Text = x.Text,
-                Title = x.Title
+                Title = x.Title,
+                Link = x.Link
             }).FirstOrDefault(x => x.Id == id);
         }
 
@@ -42,7 +44,7 @@ namespace ShopManagement.Infrastructure.EfCore.Repository
                 Id = x.Id,
                 Heading = x.Heading,
                 Picture = x.Picture,
-                CreationDate = x.CreationDate.ToString(CultureInfo.InvariantCulture),
+                CreationDate = x.CreationDate.ToFarsi(),
                 IsRemove = x.IsRemove,
                 Title = x.Title
             }).OrderByDescending(x => x.Id).ToList();

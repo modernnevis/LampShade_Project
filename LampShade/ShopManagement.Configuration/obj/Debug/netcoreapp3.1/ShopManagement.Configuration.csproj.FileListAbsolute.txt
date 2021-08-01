@@ -3,11 +3,13 @@ C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopMan
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\ShopManagement.Configuration.runtimeconfig.dev.json
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\ShopManagement.Configuration.dll
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\ShopManagement.Configuration.pdb
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\01_lampshadeQuery.dll
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\0_Framework.dll
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\ShopManagement.Application.Contracts.dll
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\ShopManagement.Application.dll
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\ShopManagement.Domain.dll
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\ShopManagement.Infrastructure.EfCore.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\01_lampshadeQuery.pdb
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\ShopManagement.Application.pdb
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\ShopManagement.Infrastructure.EfCore.pdb
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\0_Framework.pdb

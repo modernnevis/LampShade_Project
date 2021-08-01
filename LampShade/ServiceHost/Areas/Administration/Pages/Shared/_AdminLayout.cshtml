@@ -29,11 +29,14 @@
     <link href="~/AdminTheme/assets/sweet-alert/sweet-alert.min.css" rel="stylesheet">
 
     <!-- Custom Files -->
+    <link href="~/AdminTheme/assets/css/persian-datepicker.min.css" rel="stylesheet"/>
     <link href="~/AdminTheme/assets/css/helper.css" rel="stylesheet" type="text/css"/>
     <link href="~/AdminTheme/assets/css/style.css" rel="stylesheet" type="text/css"/>
     
 
     <script src="~/AdminTheme/assets/js/modernizr.min.js"></script>
+    
+
 
 </head>
 
@@ -63,10 +66,7 @@
                     <span class="clearfix"></span>
                 </div>
                 <form class="navbar-form pull-left" role="search">
-                    <div class="form-group">
-                        <input type="text" class="form-control search-bar" placeholder="Type here for searchModel...">
-                        <input type="text" class="form-control search-bar" placeholder="Type here for searchModel...">
-                    </div>
+
                     <button type="submit" class="btn btn-search">
                         <i class="fa fa-search"></i>
                     </button>
@@ -132,16 +132,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="hidden-xs">
-                        <a href="#" id="btn-fullscreen" class="waves-effect waves-light">
-                            <i class="md md-crop-free"></i>
-                        </a>
-                    </li>
-                    <li class="hidden-xs">
-                        <a href="#" class="right-bar-toggle waves-effect waves-light">
-                            <i class="md md-chat"></i>
-                        </a>
-                    </li>
+
                     <li class="dropdown">
                         <a href="" class="dropdown-toggle profile" data-toggle="dropdown" aria-expanded="true">
                             <img src="~/AdminTheme/images/avatar-1.jpg" alt="user-img" class="img-circle">
@@ -204,7 +195,8 @@
 <!-- var resizefunc = []; -->
 <!-- </script> -->
 <!-- jQuery  -->
-@*<script src="~/AdminTheme/assets/js/jquery.min.js"></script>*@
+
+
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/AdminTheme/assets/js/bootstrap.min.js"></script>
 <script src="~/AdminTheme/assets/js/waves.js"></script>
@@ -257,19 +249,15 @@
 <script src="~/AdminTheme/assets/js/persian-datepicker.min.js"></script>
 
 
+
 @await RenderSectionAsync("Scripts", false);
 
-<!-- <script type="text/javascript"> -->
-<!-- /* ============================================== -->
-<!-- Counter Up -->
-<!-- =============================================== */ -->
-<!-- jQuery(document).ready(function($) { -->
-<!-- $('.counter').counterUp({ -->
-<!-- delay: 100, -->
-<!-- time: 1200 -->
-<!-- }); -->
-<!-- }); -->
-<!-- </script> -->
+<script>
+    $('.persianDateInput').persianDatepicker({
+        format: 'YYYY/MM/DD',
+        autoClose: true
+    });
+</script>
 
 </body>
 </html>

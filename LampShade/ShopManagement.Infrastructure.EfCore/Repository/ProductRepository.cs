@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using _0_Framework.Application;
 using _0_Framework.Domain;
 using _0_Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
@@ -50,7 +51,7 @@ namespace ShopManagement.Infrastructure.EfCore.Repository
                 Name = x.Name,
                 Picture = x.Picture,
                 UnitPrice = x.UnitPrice,
-                CreationDate = x.CreationDate.ToString(),
+                CreationDate = x.CreationDate.ToFarsi(),
                 InStock = x.IsStock
             });
 

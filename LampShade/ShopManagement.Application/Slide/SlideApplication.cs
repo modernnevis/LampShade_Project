@@ -21,7 +21,7 @@ namespace ShopManagement.Application.Slide
         {
             var operationResult = new OperationResult();
             var slide = new Domain.SlideAgg.Slide(command.Picture, command.PictureAlt, command.PictureTitle,
-                command.Heading,command.Title ,command.Text, command.BtnText);
+                command.Heading,command.Title ,command.Text, command.BtnText,command.Link);
 
             _slideRepository.Create(slide);
             _slideRepository.SaveChanges();
@@ -37,7 +37,7 @@ namespace ShopManagement.Application.Slide
                 return operationResult.Failed(ApplicationMessages.NotFound);
 
             slide.Edit(command.Picture, command.PictureAlt, command.PictureTitle,
-                command.Heading, command.Title, command.Text, command.BtnText);
+                command.Heading, command.Title, command.Text, command.BtnText, command.Link);
 
             _slideRepository.SaveChanges();
             return operationResult.Succeeded();

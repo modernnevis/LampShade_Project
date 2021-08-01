@@ -65,7 +65,6 @@ body {
     background: #f5f5f5;
     margin: 0;
     -webkit-text-size-adjust: 100%;
-    font-family: IranSans;
     direction: rtl;
 }
 
@@ -755,7 +754,7 @@ a:focus {
     float: right;
     display: block;
     content: '\f068';
-    font-family: 'FontAwesome';
+    font-family: 'IranSans';
     font-size: 14px;
     width: 25px;
     text-align: right;
@@ -1662,7 +1661,7 @@ body.fixed-left .side-menu.left {
 
 .fc-text-arrow,
 .fc-text-arrow {
-    font-family: arial;
+    font-family: IranSans;
     font-size: 16px;
 }
 
@@ -1746,10 +1745,10 @@ body.fixed-left .side-menu.left {
     outline-offset: -2px;
 }
 
-.checkbox input[type="checkbox"]:checked + label::after {
-    font-family: 'FontAwesome';
-    content: "\f00c";
-}
+    .checkbox input[type="checkbox"]:checked + label::after {
+        font-family: 'IranSans';
+        content: "\f00c";
+    }
 
 .checkbox input[type="checkbox"]:disabled + label { opacity: 0.65; }
 
