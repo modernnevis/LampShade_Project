@@ -1,0 +1,12 @@
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Application.Contract\bin\Debug\netcoreapp3.1\InventoryManagement.Application.Contract.deps.json
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Application.Contract\bin\Debug\netcoreapp3.1\InventoryManagement.Application.Contract.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Application.Contract\bin\Debug\netcoreapp3.1\InventoryManagement.Application.Contract.pdb
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Application.Contract\bin\Debug\netcoreapp3.1\0_Framework.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Application.Contract\bin\Debug\netcoreapp3.1\0_Framework.pdb
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Application.Contract\obj\Debug\netcoreapp3.1\InventoryManagement.Application.Contract.csprojAssemblyReference.cache
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Application.Contract\obj\Debug\netcoreapp3.1\InventoryManagement.Application.Contract.AssemblyInfoInputs.cache
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Application.Contract\obj\Debug\netcoreapp3.1\InventoryManagement.Application.Contract.AssemblyInfo.cs
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Application.Contract\obj\Debug\netcoreapp3.1\InventoryManagement.Application.Contract.csproj.CoreCompileInputs.cache
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Application.Contract\obj\Debug\netcoreapp3.1\InventoryManagement.Application.Contract.csproj.CopyComplete
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Application.Contract\obj\Debug\netcoreapp3.1\InventoryManagement.Application.Contract.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Application.Contract\obj\Debug\netcoreapp3.1\InventoryManagement.Application.Contract.pdb
