@@ -34,7 +34,6 @@ namespace ShopManagement.Infrastructure.EfCore.Repository
                PictureAlt = x.PictureAlt,
                PictureTitle = x.PictureTitle,
                Slug = x.Slug,
-               UnitPrice = x.UnitPrice,
                ShortDescription = x.ShortDescription
 
             }).SingleOrDefault(x => x.Id == id);
@@ -50,9 +49,7 @@ namespace ShopManagement.Infrastructure.EfCore.Repository
                 Code = x.Code,
                 Name = x.Name,
                 Picture = x.Picture,
-                UnitPrice = x.UnitPrice,
                 CreationDate = x.CreationDate.ToFarsi(),
-                InStock = x.IsStock
             });
 
             if (!string.IsNullOrWhiteSpace(searchModel.Name))

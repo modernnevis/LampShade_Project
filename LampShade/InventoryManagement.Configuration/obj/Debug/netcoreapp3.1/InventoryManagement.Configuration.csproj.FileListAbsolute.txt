@@ -5,11 +5,13 @@ C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\Invento
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\netcoreapp3.1\InventoryManagement.Configuration.pdb
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\netcoreapp3.1\0_Framework.dll
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\netcoreapp3.1\InventoryManagement.Application.Contract.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\netcoreapp3.1\InventoryManagement.Application.dll
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\netcoreapp3.1\InventoryManagement.Domain.dll
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\netcoreapp3.1\InventoryManagement.Infrastructure.EfCore.dll
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\netcoreapp3.1\ShopManagement.Application.Contracts.dll
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\netcoreapp3.1\ShopManagement.Domain.dll
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\netcoreapp3.1\ShopManagement.Infrastructure.EfCore.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\netcoreapp3.1\InventoryManagement.Application.pdb
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\netcoreapp3.1\InventoryManagement.Domain.pdb
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\netcoreapp3.1\InventoryManagement.Infrastructure.EfCore.pdb
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\netcoreapp3.1\0_Framework.pdb
@@ -25,5 +27,3 @@ C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\Invento
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Configuration\obj\Debug\netcoreapp3.1\InventoryManagement.Configuration.dll
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Configuration\obj\Debug\netcoreapp3.1\InventoryManagement.Configuration.pdb
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Configuration\obj\Debug\netcoreapp3.1\InventoryManagement.Configuration.genruntimeconfig.cache
-C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\netcoreapp3.1\InventoryManagement.Application.dll
-C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\netcoreapp3.1\InventoryManagement.Application.pdb

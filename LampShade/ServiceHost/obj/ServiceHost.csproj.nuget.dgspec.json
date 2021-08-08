@@ -32,6 +32,12 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+              "C:\\Users\\HP O M E N\\Documents\\C#\\Atriya\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EfCore\\DiscountManagement.Infrastructure.EfCore.csproj": {
+                "projectPath": "C:\\Users\\HP O M E N\\Documents\\C#\\Atriya\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EfCore\\DiscountManagement.Infrastructure.EfCore.csproj"
+              },
+              "C:\\Users\\HP O M E N\\Documents\\C#\\Atriya\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj": {
+                "projectPath": "C:\\Users\\HP O M E N\\Documents\\C#\\Atriya\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj"
+              },
               "C:\\Users\\HP O M E N\\Documents\\C#\\Atriya\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
                 "projectPath": "C:\\Users\\HP O M E N\\Documents\\C#\\Atriya\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj"
               }
@@ -450,6 +456,9 @@
             "projectReferences": {
               "C:\\Users\\HP O M E N\\Documents\\C#\\Atriya\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
                 "projectPath": "C:\\Users\\HP O M E N\\Documents\\C#\\Atriya\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj"
+              },
+              "C:\\Users\\HP O M E N\\Documents\\C#\\Atriya\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\HP O M E N\\Documents\\C#\\Atriya\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }

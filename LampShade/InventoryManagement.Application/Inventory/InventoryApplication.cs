@@ -24,6 +24,7 @@ namespace InventoryManagement.Application.Inventory
                 return operationResult.Failed(ApplicationMessages.Duplicate);
 
             var inventory = new Domain.InventoryAgg.Inventory(command.ProductId, command.UnitPrice);
+            _inventoryRepository.Create(inventory);
             _inventoryRepository.SaveChanges();
             return operationResult.Succeeded();
         }
@@ -94,6 +95,16 @@ namespace InventoryManagement.Application.Inventory
         public List<InventoryViewModel> Search(InventorySearchModel searchModel)
         {
             return _inventoryRepository.Search(searchModel);
+        }
+
+        public List<InventoryOperationViewModel> GetOperationLog(long inventoryId)
+        {
+            return _inventoryRepository.GetOperationLog(inventoryId);
+        }
+
+        public List<InventoryOperationViewModel> OperationLog(long inventoryId)
+        {
+            return _inventoryRepository.GetOperationLog(inventoryId);
         }
     }
 }

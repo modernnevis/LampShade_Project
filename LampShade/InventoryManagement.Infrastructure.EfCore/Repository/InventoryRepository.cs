@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using _0_Framework.Application;
 using _0_Framework.Infrastructure;
 using InventoryManagement.Application.Contract.Inventory;
 using InventoryManagement.Domain.InventoryAgg;
@@ -45,19 +46,41 @@ namespace InventoryManagement.Infrastructure.EfCore.Repository
                 CurrentCount = x.CalculateCurrentCount(),
                 InStock = x.InStock,
                 ProductId = x.ProductId,
-                UnitPrice = x.UnitPrice
+                UnitPrice = x.UnitPrice,
+                CreationDate = x.CreationDate.ToFarsi()
             });
 
             if (searchModel.ProductId > 0)
                 query = query.Where(x => x.ProductId == searchModel.ProductId);
 
-            if (!searchModel.InStock)
-                query = query.Where(x=>x.InStock == searchModel.InStock);
+            if (searchModel.InStock)
+                query = query.Where(x=>x.InStock == !searchModel.InStock);
 
             var inventories = query.OrderByDescending(x => x.Id).ToList();
             inventories.ForEach(item => item.Product = (products.FirstOrDefault(product => product.Id==item.ProductId))?.Name);
 
             return inventories;
         }
+
+        public List<InventoryOperationViewModel> GetOperationLog(long inventoryId)
+        {
+            var inventory = _inventoryContext.Inventory.FirstOrDefault(x => x.Id == inventoryId);
+  
+                
+
+            return inventory.Operations.Select(x => new InventoryOperationViewModel
+            {
+                Id = x.Id,
+                Count = x.Count,
+                CurrentCount = x.CurrentCount,
+                Description = x.Description,
+                Operation = x.Operation,
+                OperationDate = x.OperationDate.ToFarsi(),
+                OperatorId = x.OperatorId,
+                Operator = "مدیر سیستم",
+                OrderId = x.OrderId
+            }).OrderByDescending(x => x.Id).ToList();
+        }
+
     }
 }

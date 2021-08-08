@@ -1,7 +1,4 @@
-﻿using System;
-using System.Data.Common;
-using System.Reflection.Metadata.Ecma335;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductCategoryAgg;
 using ShopManagement.Domain.ProductPictureAgg;

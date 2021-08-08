@@ -5,6 +5,12 @@ C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopMan
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\ShopManagement.Configuration.pdb
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\01_lampshadeQuery.dll
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\0_Framework.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\DiscountManagement.Application.Contracts.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\DiscountManagement.Domain.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\DiscountManagement.Infrastructure.EfCore.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\InventoryManagement.Application.Contract.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\InventoryManagement.Domain.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\InventoryManagement.Infrastructure.EfCore.dll
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\ShopManagement.Application.Contracts.dll
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\ShopManagement.Application.dll
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\ShopManagement.Domain.dll
@@ -13,6 +19,12 @@ C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopMan
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\ShopManagement.Application.pdb
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\ShopManagement.Infrastructure.EfCore.pdb
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\0_Framework.pdb
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\DiscountManagement.Application.Contracts.pdb
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\DiscountManagement.Domain.pdb
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\DiscountManagement.Infrastructure.EfCore.pdb
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\InventoryManagement.Application.Contract.pdb
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\InventoryManagement.Domain.pdb
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\InventoryManagement.Infrastructure.EfCore.pdb
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\ShopManagement.Application.Contracts.pdb
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\ShopManagement.Domain.pdb
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\obj\Debug\netcoreapp3.1\ShopManagement.Configuration.csprojAssemblyReference.cache

@@ -3,8 +3,10 @@ C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\Invento
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Domain\bin\Debug\netcoreapp3.1\InventoryManagement.Domain.pdb
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Domain\bin\Debug\netcoreapp3.1\0_Framework.dll
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Domain\bin\Debug\netcoreapp3.1\InventoryManagement.Application.Contract.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Domain\bin\Debug\netcoreapp3.1\ShopManagement.Application.Contracts.dll
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Domain\bin\Debug\netcoreapp3.1\0_Framework.pdb
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Domain\bin\Debug\netcoreapp3.1\InventoryManagement.Application.Contract.pdb
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Domain\bin\Debug\netcoreapp3.1\ShopManagement.Application.Contracts.pdb
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Domain\obj\Debug\netcoreapp3.1\InventoryManagement.Domain.csprojAssemblyReference.cache
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Domain\obj\Debug\netcoreapp3.1\InventoryManagement.Domain.AssemblyInfoInputs.cache
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\InventoryManagement.Domain\obj\Debug\netcoreapp3.1\InventoryManagement.Domain.AssemblyInfo.cs

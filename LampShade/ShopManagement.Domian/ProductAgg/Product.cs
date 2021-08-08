@@ -11,10 +11,10 @@ namespace ShopManagement.Domain.ProductAgg
     {
         public string Name { get; private set; }
         public string Code { get; private set; }
-        public double UnitPrice { get; private set; }
+       // public double UnitPrice { get; private set; }
         public string ShortDescription { get; private set; }
         public string Description { get; private set; }
-        public bool IsStock { get; private set; }
+       // public bool IsStock { get; private set; }
         public string Picture { get; private set; }
         public string PictureAlt { get; private set; }
         public string PictureTitle { get; private set; }
@@ -23,16 +23,15 @@ namespace ShopManagement.Domain.ProductAgg
         public string Slug { get; private set; }
         public string Keywords { get; private set; }
         public string MetaDescription { get; private set; }
-        public ICollection<ProductPicture> ProductPictures { get; set; }
+        public List<ProductPicture> ProductPictures { get; set; }
 
         protected Product()
         {
         }
-        public Product(string name, string code, double unitPrice, string shortDescription, string description, string picture, string pictureAlt, string pictureTitle, long categoryId, string slug, string keywords, string metaDescription)
+        public Product(string name, string code, string shortDescription, string description, string picture, string pictureAlt, string pictureTitle, long categoryId, string slug, string keywords, string metaDescription)
         {
             Name = name;
             Code = code;
-            UnitPrice = unitPrice;
             ShortDescription = shortDescription;
             Description = description;
             Picture = picture;
@@ -42,14 +41,13 @@ namespace ShopManagement.Domain.ProductAgg
             Slug = slug;
             Keywords = keywords;
             MetaDescription = metaDescription;
-            IsStock = true;
             ProductPictures = new List<ProductPicture>();
         }
-        public void Edit(string name, string code, double unitPrice, string shortDescription, string description, string picture, string pictureAlt, string pictureTitle, long categoryId, string slug, string keyword, string metaDescription)
+        public void Edit(string name, string code, string shortDescription, string description, string picture, string pictureAlt, string pictureTitle, long categoryId, string slug, string keyword, string metaDescription)
         {
             Name = name;
             Code = code;
-            UnitPrice = unitPrice;
+
             ShortDescription = shortDescription;
             Description = description;
             Picture = picture;
@@ -59,16 +57,7 @@ namespace ShopManagement.Domain.ProductAgg
             Slug = slug;
             Keywords = keyword;
             MetaDescription = metaDescription;
-            IsStock = true;
         }
 
-        public void InStock()
-        {
-            IsStock = true;
-        }
-        public void NotInStock()
-        {
-            IsStock = false;
-        }
     }
 }
