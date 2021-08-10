@@ -30,13 +30,17 @@ namespace ShopManagement.Infrastructure.EfCore.Repository
                Keywords = x.Keywords,
                MetaDescription = x.MetaDescription,
                Name = x.Name,
-               Picture = x.Picture,
                PictureAlt = x.PictureAlt,
                PictureTitle = x.PictureTitle,
                Slug = x.Slug,
                ShortDescription = x.ShortDescription
 
             }).SingleOrDefault(x => x.Id == id);
+        }
+
+        public Product GetProductWithCategoryBy(long id)
+        {
+            return _context.Products.Include(c => c.Category).FirstOrDefault(x => x.Id == id);
         }
 
         public List<ProductViewModel> Search(ProductSearchModel searchModel)

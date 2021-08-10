@@ -21,7 +21,6 @@
                             </li>
                             <li class="active">
                                 <a asp-page="/ProductCategory" asp-route-id="@Model.Product.CategorySlug">@Model.Product.Category</a>
-
                             </li>
                         </ul>
                     </div>
@@ -139,13 +138,12 @@
                         <a href="#">(2 reviews)</a> | <a href="#">نظر دهید</a>
                     </span>
                 </div>
-                <p class="single-grid-product__price">
+                <p class="single-grid-product__price" style="direction: rtl">
 
                     @if (@Model.Product.HasDiscount)
                     {
-                        <span class="discounted-price">@Model.Product.PriceWithDiscount </span>
+                    <span class="discounted-price">@Model.Product.PriceWithDiscount تومان</span>
                         <span class="main-price discounted">@Model.Product.Price تومان</span>
-                        <span class="discounted-price">تومان</span>
 
                     }
                     else
@@ -154,7 +152,7 @@
                     }
                 </p>
 
-                <p class="single-info">کد محصول: <span class="value">@Model.Product.Code</span> </p>
+                <p class="single-info" style="direction: rtl">کد محصول: <span class="value">@Model.Product.Code</span> </p>
 
 
                 @if (Model.Product.IsInStock)
@@ -237,11 +235,11 @@
         <a class="nav-item nav-link active" id="description-tab"
            data-toggle="tab" href="#product-description" role="tab"
            aria-selected="true">
-            Description
+            توضیحات
         </a>
         <a class="nav-item nav-link" id="review-tab" data-toggle="tab"
            href="#review" role="tab" aria-selected="false">
-            Reviews (1)
+          نظرات (1)
         </a>
     </div>
 </nav>

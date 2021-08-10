@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using _0_Framework.Application;
+using Microsoft.AspNetCore.Http;
 using ShopManagement.Application.Contracts.ProductCategory;
 
 namespace ShopManagement.Application.Contracts.Product
@@ -21,8 +22,15 @@ namespace ShopManagement.Application.Contracts.Product
         public string ShortDescription { get;   set; }
 
         public string Description { get;   set; }
-        public string Picture { get;   set; }
+
+        [FileExtensionLimitation(new[] { ".jpeg", ".jpg", ".png" }, ErrorMessage = ValidationMessages.InvalidFileFormat)]
+        [MaxFileSize(3 * 1024 * 1024, ErrorMessage = ValidationMessages.MaxFileSize)]
+        public IFormFile Picture { get;   set; }
+
+        [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string PictureAlt { get;   set; }
+
+        [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string PictureTitle { get;   set; }
 
         [Range(1, 100000, ErrorMessage = ValidationMessages.IsRequired)]

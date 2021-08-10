@@ -74,6 +74,10 @@ namespace _01_lampshadeQuery.Query
                     }
                 }
             }
+            else
+            {
+                return new ProductQueryModel();
+            }
 
 
             return productResult;
