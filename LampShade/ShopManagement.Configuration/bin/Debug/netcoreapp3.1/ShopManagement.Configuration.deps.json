@@ -9,11 +9,7 @@
       "ShopManagement.Configuration/1.0.0": {
         "dependencies": {
           "01_lampshadeQuery": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "5.0.8",
-          "Microsoft.EntityFrameworkCore.Design": "5.0.8",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.8",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.8",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
           "ShopManagement.Application": "1.0.0",
           "ShopManagement.Infrastructure.EfCore": "1.0.0"
         },

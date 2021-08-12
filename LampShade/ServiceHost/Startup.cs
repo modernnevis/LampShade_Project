@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using _0_Framework.Application;
+using BlogManagement.Infrastructure.Configuration;
 using DiscountManagement.Configuration;
 using InventoryManagement.Configuration;
 using ShopManagement.Configuration;
@@ -32,6 +33,8 @@ namespace ServiceHost
             ShopManagementBootstrapper.Configure(services , connectionString);
             DiscountManagementBootstrapper.Configure(services , connectionString);
             InventoryManagementBootstrapper.Configure(services,connectionString);
+            BlogManagementBootstrapper.Configure(services,connectionString);
+            
 
             services.AddTransient<IFileUploader, FileUploader>();
 

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using _01_lampshadeQuery.Contracts.Comment;
 using _01_lampshadeQuery.Contracts.ProductPicture;
 
 namespace _01_lampshadeQuery.Contracts.Product
@@ -23,6 +24,7 @@ namespace _01_lampshadeQuery.Contracts.Product
         public string Keywords { get; set; }
         public string MetaDescription { get; set; }
         public List<ProductPictureQueryModel> ProductPictures { get; set; }
+        public List<CommentQueryModel> Comments { get; set; }
         public string CategorySlug { get; set; }
         public string Code { get; set; }
         public bool IsInStock { get; set; }

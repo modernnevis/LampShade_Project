@@ -1,0 +1,16 @@
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Application\bin\Debug\netcoreapp3.1\BlogManagement.Application.deps.json
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Application\bin\Debug\netcoreapp3.1\BlogManagement.Application.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Application\bin\Debug\netcoreapp3.1\BlogManagement.Application.pdb
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Application\bin\Debug\netcoreapp3.1\0_Framework.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Application\bin\Debug\netcoreapp3.1\BlogManagement.Application.Contracts.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Application\bin\Debug\netcoreapp3.1\BlogManagement.Domain.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Application\bin\Debug\netcoreapp3.1\BlogManagement.Application.Contracts.pdb
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Application\bin\Debug\netcoreapp3.1\BlogManagement.Domain.pdb
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Application\bin\Debug\netcoreapp3.1\0_Framework.pdb
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Application\obj\Debug\netcoreapp3.1\BlogManagement.Application.csprojAssemblyReference.cache
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Application\obj\Debug\netcoreapp3.1\BlogManagement.Application.AssemblyInfoInputs.cache
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Application\obj\Debug\netcoreapp3.1\BlogManagement.Application.AssemblyInfo.cs
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Application\obj\Debug\netcoreapp3.1\BlogManagement.Application.csproj.CoreCompileInputs.cache
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Application\obj\Debug\netcoreapp3.1\BlogManagement.Application.csproj.CopyComplete
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Application\obj\Debug\netcoreapp3.1\BlogManagement.Application.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Application\obj\Debug\netcoreapp3.1\BlogManagement.Application.pdb

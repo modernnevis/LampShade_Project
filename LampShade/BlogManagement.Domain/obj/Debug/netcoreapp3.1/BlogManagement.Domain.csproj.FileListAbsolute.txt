@@ -1,0 +1,14 @@
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Domain\bin\Debug\netcoreapp3.1\BlogManagement.Domain.deps.json
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Domain\bin\Debug\netcoreapp3.1\BlogManagement.Domain.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Domain\bin\Debug\netcoreapp3.1\BlogManagement.Domain.pdb
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Domain\bin\Debug\netcoreapp3.1\0_Framework.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Domain\bin\Debug\netcoreapp3.1\BlogManagement.Application.Contracts.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Domain\bin\Debug\netcoreapp3.1\0_Framework.pdb
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Domain\bin\Debug\netcoreapp3.1\BlogManagement.Application.Contracts.pdb
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Domain\obj\Debug\netcoreapp3.1\BlogManagement.Domain.csprojAssemblyReference.cache
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Domain\obj\Debug\netcoreapp3.1\BlogManagement.Domain.AssemblyInfoInputs.cache
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Domain\obj\Debug\netcoreapp3.1\BlogManagement.Domain.AssemblyInfo.cs
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Domain\obj\Debug\netcoreapp3.1\BlogManagement.Domain.csproj.CoreCompileInputs.cache
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Domain\obj\Debug\netcoreapp3.1\BlogManagement.Domain.csproj.CopyComplete
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Domain\obj\Debug\netcoreapp3.1\BlogManagement.Domain.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\BlogManagement.Domain\obj\Debug\netcoreapp3.1\BlogManagement.Domain.pdb

@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using _0_Framework.Application;
+using _01_lampshadeQuery.Contracts.Comment;
 using _01_lampshadeQuery.Contracts.Product;
 using _01_lampshadeQuery.Contracts.ProductPicture;
 using DiscountManagement.Infrastructure.EfCore;
 using InventoryManagement.Infrastructure.EfCore;
 using Microsoft.EntityFrameworkCore;
+using ShopManagement.Domain.CommentAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Infrastructure.EfCore;
 
@@ -36,7 +38,10 @@ namespace _01_lampshadeQuery.Query
             var inventory = _inventoryContext.Inventory.Select(x => new {x.ProductId, x.UnitPrice, x.InStock})
                 .AsNoTracking();
 
-            var productResult = _context.Products.Include(x => x.Category)
+            var productResult = _context.Products
+                .Include(x => x.Category)
+                .Include(x=>x.ProductPictures)
+                .Include(x=>x.Comments)
                 .Select(product => new ProductQueryModel
                 {
                     Id = product.Id,
@@ -51,7 +56,8 @@ namespace _01_lampshadeQuery.Query
                     Keywords = product.Keywords,
                     MetaDescription = product.MetaDescription,
                     Description = product.Description,
-                    ProductPictures = MapProductPicture(product.ProductPictures)
+                    ProductPictures = MapProductPicture(product.ProductPictures),
+                    Comments = MapComment(product.Comments)
                 }).AsNoTracking().FirstOrDefault(x => x.Slug == slug);
 
 
@@ -74,17 +80,24 @@ namespace _01_lampshadeQuery.Query
                     }
                 }
             }
-            else
-            {
-                return new ProductQueryModel();
-            }
-
-
+            
             return productResult;
+        }
+
+        private static List<CommentQueryModel> MapComment(List<Comment> productComments)
+        {
+            return productComments.Where(x => !x.Canceled && x.Confirmed).Select(x => new CommentQueryModel
+            {
+                Id = x.Id,
+                Name = x.Name,
+                Message = x.Message
+
+            }).ToList();
         }
 
         private static List<ProductPictureQueryModel> MapProductPicture(List<ProductPicture> productPictures)
         {
+
             return productPictures.Where(x => !x.IsRemove).Select(x => new ProductPictureQueryModel()
             {
                 Picture = x.Picture,

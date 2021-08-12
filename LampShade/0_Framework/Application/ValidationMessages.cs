@@ -10,5 +10,6 @@ namespace _0_Framework.Application
         public const string MaxFileSize = "فایل حجیم تر از حد مجاز است";
         public const string InvalidFileFormat = "فرمت فایل مجاز نیست";
         public const string MaxLength = "مقدار وارد شده بیش از طول مجاز است";
+        public const string EmailType = "این فرمت مجاز نمی باشد";
     }
 }
