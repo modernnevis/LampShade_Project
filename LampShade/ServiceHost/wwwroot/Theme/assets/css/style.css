@@ -2678,6 +2678,8 @@ select {
 }
 
 .single-slider-post__date-sticker {
+    padding: 5px;
+    border-radius: 3px;
 	position: absolute;
 	top: 20px;
 	right: 20px;
@@ -2686,8 +2688,8 @@ select {
 	display: -ms-flexbox;
 	display: flex;
 	flex-direction: column;
-	width: 62px;
-	height: 70px;
+/*	width: 62px;
+	height: 70px;*/
 	text-align: center;
 	background: #fff;
 	-webkit-box-orient: vertical;

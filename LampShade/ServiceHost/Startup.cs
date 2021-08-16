@@ -7,9 +7,12 @@ using Microsoft.Extensions.Hosting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Encodings.Web;
+using System.Text.Unicode;
 using System.Threading.Tasks;
 using _0_Framework.Application;
 using BlogManagement.Infrastructure.Configuration;
+using CommentManagement.Configuration;
 using DiscountManagement.Configuration;
 using InventoryManagement.Configuration;
 using ShopManagement.Configuration;
@@ -34,7 +37,10 @@ namespace ServiceHost
             DiscountManagementBootstrapper.Configure(services , connectionString);
             InventoryManagementBootstrapper.Configure(services,connectionString);
             BlogManagementBootstrapper.Configure(services,connectionString);
-            
+            CommentManagementBootstrapper.Configure(services,connectionString);
+
+            services.AddSingleton(HtmlEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Arabic));
+
 
             services.AddTransient<IFileUploader, FileUploader>();
 

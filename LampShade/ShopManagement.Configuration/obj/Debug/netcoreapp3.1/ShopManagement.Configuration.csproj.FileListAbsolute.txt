@@ -5,6 +5,9 @@ C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopMan
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\ShopManagement.Configuration.pdb
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\01_lampshadeQuery.dll
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\0_Framework.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\BlogManagement.Application.Contracts.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\BlogManagement.Domain.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\BlogManagement.Infrastructure.EfCore.dll
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\DiscountManagement.Application.Contracts.dll
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\DiscountManagement.Domain.dll
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\DiscountManagement.Infrastructure.EfCore.dll
@@ -19,6 +22,9 @@ C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopMan
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\ShopManagement.Application.pdb
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\ShopManagement.Infrastructure.EfCore.pdb
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\0_Framework.pdb
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\BlogManagement.Application.Contracts.pdb
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\BlogManagement.Domain.pdb
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\BlogManagement.Infrastructure.EfCore.pdb
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\DiscountManagement.Application.Contracts.pdb
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\DiscountManagement.Domain.pdb
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\DiscountManagement.Infrastructure.EfCore.pdb
@@ -35,3 +41,9 @@ C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopMan
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\obj\Debug\netcoreapp3.1\ShopManagement.Configuration.dll
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\obj\Debug\netcoreapp3.1\ShopManagement.Configuration.pdb
 C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\obj\Debug\netcoreapp3.1\ShopManagement.Configuration.genruntimeconfig.cache
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\CommentManagement.Application.Contracts.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\CommentManagement.Domain.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\CommentManagement.Infrastructure.EfCore.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\CommentManagement.Application.Contracts.pdb
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\CommentManagement.Domain.pdb
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\netcoreapp3.1\CommentManagement.Infrastructure.EfCore.pdb

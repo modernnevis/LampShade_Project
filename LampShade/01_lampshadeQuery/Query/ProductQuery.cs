@@ -6,10 +6,10 @@ using _0_Framework.Application;
 using _01_lampshadeQuery.Contracts.Comment;
 using _01_lampshadeQuery.Contracts.Product;
 using _01_lampshadeQuery.Contracts.ProductPicture;
+using CommentManagement.Infrastructure.EfCore;
 using DiscountManagement.Infrastructure.EfCore;
 using InventoryManagement.Infrastructure.EfCore;
 using Microsoft.EntityFrameworkCore;
-using ShopManagement.Domain.CommentAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Infrastructure.EfCore;
 
@@ -20,13 +20,15 @@ namespace _01_lampshadeQuery.Query
         private readonly ShopContext _context;
         private readonly InventoryContext _inventoryContext;
         private readonly DiscountContext _discountContext;
+        private readonly CommentContext _commentContext;
 
         public ProductQuery(ShopContext context, InventoryContext inventoryContext,
-            DiscountContext discountContext)
+            DiscountContext discountContext, CommentContext commentContext)
         {
             _context = context;
             _inventoryContext = inventoryContext;
             _discountContext = discountContext;
+            _commentContext = commentContext;
         }
 
         public ProductQueryModel GetBy(string slug)
@@ -41,7 +43,6 @@ namespace _01_lampshadeQuery.Query
             var productResult = _context.Products
                 .Include(x => x.Category)
                 .Include(x=>x.ProductPictures)
-                .Include(x=>x.Comments)
                 .Select(product => new ProductQueryModel
                 {
                     Id = product.Id,
@@ -57,7 +58,7 @@ namespace _01_lampshadeQuery.Query
                     MetaDescription = product.MetaDescription,
                     Description = product.Description,
                     ProductPictures = MapProductPicture(product.ProductPictures),
-                    Comments = MapComment(product.Comments)
+             
                 }).AsNoTracking().FirstOrDefault(x => x.Slug == slug);
 
 
@@ -80,21 +81,20 @@ namespace _01_lampshadeQuery.Query
                     }
                 }
             }
-            
+
+            productResult.Comments = _commentContext.Comments
+                .Where(x => x.Type == CommentType.Product)
+                .Where(x => !x.Canceled && x.Confirmed)
+                .Select(x => new CommentQueryModel
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    Message = x.Message
+                }).AsNoTracking().OrderByDescending(x => x.Id).ToList();
+                
+
             return productResult;
         }
-
-        private static List<CommentQueryModel> MapComment(List<Comment> productComments)
-        {
-            return productComments.Where(x => !x.Canceled && x.Confirmed).Select(x => new CommentQueryModel
-            {
-                Id = x.Id,
-                Name = x.Name,
-                Message = x.Message
-
-            }).ToList();
-        }
-
         private static List<ProductPictureQueryModel> MapProductPicture(List<ProductPicture> productPictures)
         {
 

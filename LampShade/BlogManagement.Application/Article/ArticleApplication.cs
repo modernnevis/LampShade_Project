@@ -33,7 +33,7 @@ namespace BlogManagement.Application.Article
             var fileName = _fileUploader.Upload(command.Picture, picturePath);
 
             var article = new Domain.ArticleAgg.Article(command.Title, command.ShortDescription, command.Description,
-                fileName, command.PictureAlt, command.PictureTitle, publishDate, command.Slug,
+                fileName, command.PictureAlt, command.PictureTitle, publishDate, slug,
                 command.Keywords, command.MetaDescription, command.CanonicalAddress, command.CategoryId);
 
             _articleRepository.Create(article);
@@ -57,7 +57,7 @@ namespace BlogManagement.Application.Article
             var fileName = _fileUploader.Upload(command.Picture, picturePath);
 
             article.Edit(command.Title, command.ShortDescription, command.Description,
-                fileName, command.PictureAlt, command.PictureTitle, publishDate, command.Slug,
+                fileName, command.PictureAlt, command.PictureTitle, publishDate, slug,
                 command.Keywords, command.MetaDescription, command.CanonicalAddress, command.CategoryId);
 
             _articleRepository.SaveChanges();

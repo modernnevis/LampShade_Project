@@ -31,7 +31,7 @@ namespace InventoryManagement.Infrastructure.EfCore.Repository
         {
             return _inventoryContext.Inventory.Select(x => new EditInventory
             {
-                Id=x.ProductId,
+                Id=x.Id,
                 ProductId = x.ProductId,
                 UnitPrice = x.UnitPrice
             }).FirstOrDefault(x => x.Id == id);
