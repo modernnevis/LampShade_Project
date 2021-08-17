@@ -1,4 +1,6 @@
 ﻿@model _01_lampshadeQuery.MenuModel
+@inject _0_Framework.Application.IAuthHelper AuthHelper
+
 
 <div class="header-area header-sticky">
     <div class="container">
@@ -29,7 +31,7 @@
                                                 <a asp-page="/ProductCategory" asp-route-id="@productCategory.Slug">@productCategory.Name</a>
                                             </li>
                                         }
-                                       
+
 
 
                                     </ul>
@@ -44,7 +46,7 @@
                                                 <a asp-page="/ArticleCategory" asp-route-id="@articleCategory.Slug">@articleCategory.Name</a>
                                             </li>
                                         }
-                                        
+
 
 
                                     </ul>
@@ -53,6 +55,18 @@
                                 <li>
                                     <a asp-page="/Contact">ارتباط با ما</a>
                                 </li>
+                                @if (AuthHelper.IsAuthenticated())
+                                {
+                                    <li>
+                                        <a asp-page="/Account" asp-page-handler="Logout">خروج</a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li>
+                                        <a asp-page="/Account">وورد / ثبت نام</a>
+                                    </li>
+                                }
                             </ul>
                         </nav>
                     </div>
@@ -178,7 +192,7 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        </div>
+                                    </div>
                                 </div>
                             </li>
                         </ul>
@@ -200,13 +214,13 @@
                                 <div class="header-icon-wrapper">
                                     <ul class="icon-list justify-content-end">
                                         @*<li>
-                                            <div class="header-cart-icon">
-                                                <a href="cart.html">
-                                                    <i class="ion-bag"></i>
-                                                    <span class="counter">3</span>
-                                                </a>
-                                            </div>
-                                        </li>*@
+                                                <div class="header-cart-icon">
+                                                    <a href="cart.html">
+                                                        <i class="ion-bag"></i>
+                                                        <span class="counter">3</span>
+                                                    </a>
+                                                </div>
+                                            </li>*@
                                         <li>
                                             <a href="javascript:void(0)" class="mobile-menu-icon"
                                                id="mobile-menu-trigger">
@@ -292,7 +306,7 @@
                     <li class="menu-item-has-children">
                         <a asp-page="/Contact">ارتباط با ما</a>
 
-                        
+
                     </li>
 
 

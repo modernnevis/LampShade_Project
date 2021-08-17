@@ -1,0 +1,16 @@
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\AccountManagement.Application\bin\Debug\netcoreapp3.1\AccountManagement.Application.deps.json
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\AccountManagement.Application\bin\Debug\netcoreapp3.1\AccountManagement.Application.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\AccountManagement.Application\bin\Debug\netcoreapp3.1\AccountManagement.Application.pdb
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\AccountManagement.Application\bin\Debug\netcoreapp3.1\0_Framework.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\AccountManagement.Application\bin\Debug\netcoreapp3.1\AccountManagement.Application.Contracts.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\AccountManagement.Application\bin\Debug\netcoreapp3.1\AccountManagement.Domain.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\AccountManagement.Application\bin\Debug\netcoreapp3.1\AccountManagement.Application.Contracts.pdb
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\AccountManagement.Application\bin\Debug\netcoreapp3.1\AccountManagement.Domain.pdb
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\AccountManagement.Application\bin\Debug\netcoreapp3.1\0_Framework.pdb
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\AccountManagement.Application\obj\Debug\netcoreapp3.1\AccountManagement.Application.csprojAssemblyReference.cache
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\AccountManagement.Application\obj\Debug\netcoreapp3.1\AccountManagement.Application.AssemblyInfoInputs.cache
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\AccountManagement.Application\obj\Debug\netcoreapp3.1\AccountManagement.Application.AssemblyInfo.cs
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\AccountManagement.Application\obj\Debug\netcoreapp3.1\AccountManagement.Application.csproj.CoreCompileInputs.cache
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\AccountManagement.Application\obj\Debug\netcoreapp3.1\AccountManagement.Application.csproj.CopyComplete
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\AccountManagement.Application\obj\Debug\netcoreapp3.1\AccountManagement.Application.dll
+C:\Users\HP O M E N\Documents\C#\Atriya\MVC_Final_Project\Code\LampShade\AccountManagement.Application\obj\Debug\netcoreapp3.1\AccountManagement.Application.pdb
